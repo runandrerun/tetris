@@ -1,12 +1,29 @@
 body {
-  background: #202028;
-  color: #fff;
+  background: #fff;
+  color: #000;
   font-family: sans-serif;
   font-size: 2em;
   text-align: center;
 }
 
 canvas {
-  border: solid .2em #fff;
+  border: solid .05em #000;
   height: 90vh;
+  border-radius: 5px;
+  /* -webkit-box-shadow: 2px 2px 3px 4px #ccc;
+  -moz-box-shadow:    2px 2px 3px 4px #ccc;
+  box-shadow:         2px 2px 3px 4px #ccc; */
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    width: calc(100% / 2 - 10px);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .canvas {
+    padding: 0 10px 0 5px;
+  }
+
 }
