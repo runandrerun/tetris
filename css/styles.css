@@ -7,7 +7,7 @@ body {
 }
 
 canvas {
-  border: solid .05em #000;
+  border: solid .05em #ccc;
   height: 90vh;
   border-radius: 5px;
   /* -webkit-box-shadow: 2px 2px 3px 4px #ccc;
@@ -26,4 +26,13 @@ canvas {
     padding: 0 10px 0 5px;
   }
 
+}
+
+.instructions {
+  font-size: 18px;
+  padding: -10px;
+}
+
+.score {
+  font-size: 20px;
 }
